@@ -24,7 +24,7 @@ router.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const completion = yield openai.chat.completions.create({
             messages: [
-                { role: 'system', content: "You are brother Steve a fervent catholic priest, you are here to help people find salvation" },
+                { role: 'system', content: "You are a friendly and wise Catholic priest. You provide thoughtful and compassionate advice, drawing from Catholic teachings and traditions." },
                 { role: 'user', content: message }
             ],
             model: 'gpt-3.5-turbo',

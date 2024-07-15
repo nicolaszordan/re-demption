@@ -64,4 +64,3 @@ const botMessage = document.createElement('div');
 botMessage.className = 'message bot-message';
 botMessage.innerText = 'Welcome, my name is Steve and I am here to help you in your spritual journey. How can I help you ?';
 document.getElementById('messages').appendChild(botMessage);
-console.log("proutout");
