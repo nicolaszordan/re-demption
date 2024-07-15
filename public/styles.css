@@ -1,0 +1,72 @@
+body {
+    font-family: 'Garamond', serif;
+    text-align: center;
+    background: url('/images/background_clouds.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#chat-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d4af37; /* Gold border */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #d4af37; /* Gold color for the title */
+    margin-bottom: 20px;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fef9e7; /* Light yellow background for messages */
+    border-radius: 5px;
+}
+
+.message {
+    margin: 10px 0;
+}
+
+.user-message {
+    text-align: right;
+    color: #1a5276; /* Blue color for user messages */
+    font-style: italic;
+}
+
+.bot-message {
+    text-align: left;
+    color: #0e6655; /* Green color for bot messages */
+    font-weight: bold;
+}
+
+#user-input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4af37; /* Gold button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c2922b; /* Slightly darker gold on hover */
+}
