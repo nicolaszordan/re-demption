@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "start": "npx ts-node -r dotenv/config src/app.ts",
+    "start": "npx tsc && npx ts-node -r dotenv/config src/app.ts",
     "build": "tsc",
     "dev": "nodemon src/app.ts"
   },
